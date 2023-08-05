@@ -1,0 +1,331 @@
+* { margin: 0; padding: 0;}
+
+body {
+    background-color: seashell;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+div.container {
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+div.item{
+    border-radius: 10px;
+    background-color: white;
+    float: left;
+    height: 650px;
+    margin: 3px 3px;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.home {
+    position: absolute;
+    width: 35px;
+    height: auto;
+    margin-left: 11px;
+    margin-top: 6px;
+}
+
+.logout {
+    margin-top: 620px;
+    margin-left: 8px
+}
+
+div.item:nth-child(1){
+    width: 80px;
+}
+
+div.item:nth-child(2){
+    width: 550px;
+}
+
+div.item:nth-child(3){
+    width: 250px;
+}
+
+.search{
+    margin: 5px;
+    width: 225px;
+    height: 30px;
+    padding: 5px;
+    background-color: seashell;
+    border-radius: 20px;
+}
+
+.main{
+    margin: 12px;
+}
+
+.title{
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.write{
+    float: right;
+    margin: 0;
+}
+
+.hr{
+    background-color: seashell;
+    border: 0;
+    margin-top: 60px;
+    height: 5px;
+}
+
+.openBtn {
+    border: 0;
+    background-color: transparent;
+}
+
+.img_btn {
+    width: 40px;
+    height: auto;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.modal .bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modalBox{
+    position: absolute;
+    border-radius: 20px;
+    background-color: #fff;
+    top: 50px;
+    width: 600px;
+    min-height: 320px;
+    max-height: auto;
+    padding: 16px;
+}
+
+.closeBtn{
+    background-color: rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    margin-left: 25px;
+    border: 0;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.hidden{
+    display: none;
+}
+
+.top {
+    width: 600px;
+    height: 53px;
+}
+
+.middle {
+    display: block;
+    width: 600px;
+    height: 200px;
+    align-items: center;
+}
+
+.right{
+    margin-left: 30px;
+    width: 550px;
+    height: 200px;
+}
+
+.text {
+    width: 530px;
+    height: 30px;
+    border: 0;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.textarea {
+    width: 530px;
+    min-height: 130px;
+    max-height: auto;
+    border: 0;
+    font-size: 20px;
+    font-weight: 3px;
+    color: rgba(15,20,25,1.00);
+    text-align: initial;
+    overflow: hidden;
+    overscroll-behavior-y: none;
+    cursor: text;
+}
+
+.bottom {
+    width: 600px;
+    height: 48px;
+    margin: 0px 2px;
+    align-items: center;
+}
+
+.submitBtn{
+    background-color: rgb(255, 234, 219); 
+    float: right;
+    border: 0;
+    width: 100px;
+    height: 36px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    margin: 12px 12px 17px 12px;
+}
+
+.file {
+    margin-left: 30px;
+}
+
+table {
+    width: 550px;
+    border-spacing: 0 10px;
+}
+
+td {
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.tb{
+    cursor: poiner;
+}
+
+a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.tbd:hover{
+    text-decoration: underline;
+}
+
+.M {
+    display: block;
+    width: 530px;
+    min-height: 200px;
+    max-height: auto;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.R {
+    padding: 10px;
+    width: 530px;
+    height: auto;
+}
+
+.nickname {
+    margin-bottom: 8px;
+}
+
+.title1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.content1 {
+    margin-bottom: 6px;
+    min-height: 100px;
+    max-height: auto;
+}
+
+.d_file {
+    font-size: 13px;
+}
+
+.etc {
+    padding: 10px;
+    float: right;
+}
+
+.delete {
+    width: 35px;
+    height: auto;
+}
+
+.comment {
+    width: 550;
+    height: 76px;
+    margin: 10px;
+    display: block;
+}
+
+.reply_list {
+    margin-top: 16px;
+    width: 550px;
+    height: 250px;
+}
+
+.reply {
+    font-size: 20px;
+    width: 440px;
+    height: 80px;
+    border-radius: 5px;
+    float: left;
+}
+
+.replyBtn {
+    margin-right: 15px;
+    float: right;
+    width: 75px;
+    height: 80px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(248, 180, 131);
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.rpBox {
+    height: auto;
+    padding: 10px;
+    display: block;
+    border-top: 1px solid black;
+}
+
+.rr {
+    float: right;
+}
+
+.line {
+    font-size: 10px;
+}
+
+.nBold {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.mention {
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.overscroll {
+    width: 580px;
+    height: 590px;
+    overflow-y: scroll;
+}
+
