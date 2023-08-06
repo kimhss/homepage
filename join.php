@@ -18,7 +18,7 @@
                     <button class="login_btn" id="signUpButton" type="submit" disabled>가입</button>
                 </form>
                 <p>계정이 있으신가요?<a class = "login_bottom" href="login.php" > 로그인 </a></p>
-                <p>이 사람들아 가입 안 되는게 아니고 이메일 양식과 비밀번호 6자리 이상입니다;;;</p>
+                <p>가입 안 되는게 아니고 이메일 양식과 비밀번호 6자리 이상이랍니다^^;;;</p>
             </div>
         </article>
     </body>
