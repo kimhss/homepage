@@ -9,7 +9,7 @@ $content = $_POST['content'];
 $tmpfile = $_FILES['b_file']['tmp_name'];
 $o_name = $_FILES['b_file']['name'];
 $filename = iconv("UTF-8", "EUC-KR", $_FILES['b_file']['name']);
-$folder = "upload/".$filename."";
+$folder = "upload/'$filename'";
 move_uploaded_file($tmpfile, $folder);
 
 if($o_name) {
